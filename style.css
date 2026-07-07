@@ -130,7 +130,7 @@ header .carrito {
     gap: 1rem;
 }
 header .carrito:hover {
-    background-color: var(--color-primary);
+    background-color: var(--texto-light);
     transition: all 0.60s;
 }
 header .btnOrdenar{

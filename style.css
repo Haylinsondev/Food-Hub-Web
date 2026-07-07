@@ -117,7 +117,7 @@ header .navBar ul li a:hover::after {
 header .carrito {
     background-color: transparent;
     color: var(--texto-light);
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--texto-light);
     border-radius: 5px;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
@@ -130,7 +130,8 @@ header .carrito {
     gap: 1rem;
 }
 header .carrito:hover {
-    background-color: var(--texto-light);
+    background-color: var(--color-primary);
+    border: var(--texto-light);
     transition: all 0.60s;
 }
 header .btnOrdenar{
